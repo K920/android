@@ -10,8 +10,8 @@
 
   <!-- Custom -->
   <project name="K920/android_device_lenovo_kingdom_row" path="device/lenovo/kingdom_row" revision="cm-13.0"/>
-  <project name="K920/android_kernel_lenovo_msm8974" path="kernel/lenovo/msm8974" revision="cm-13.0"/>
-  <project name="K920/proprietary_vendor_lenovo" path="vendor/lenovo" revision="cm-13.0"/>
+  <project name="K920/android_kernel_lenovo_msm8974" path="kernel/lenovo/msm8974" revision="marshmallow"/>
+  <project name="K920/proprietary_vendor_lenovo" path="vendor/lenovo" revision="marshmallow"/>
   <project name="K920/android_frameworks_av" path="frameworks/av" revision="cm-13.0"/>
   <project name="K920/android_frameworks_base" path="frameworks/base" revision="cm-13.0"/>
   <project name="K920/android_packages_apps_Snap" path="packages/apps/Snap" revision="cm-13.0"/>
