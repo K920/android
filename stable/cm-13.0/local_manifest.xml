@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Repositories to replace -->
+  <remove-project name="CyanogenMod/android_packages_apps_Snap" />
+  <remove-project name="CyanogenMod/android_packages_apps_Eleven" />
+  <remove-project name="CyanogenMod/android_packages_apps_Screencast" />
+  <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
+
+  <!-- Upstream -->
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" revision="cm-13.0"/>
+
+  <!-- Custom -->
+  <project name="K920/android_device_lenovo_kingdom_row" path="device/lenovo/kingdom_row" revision="cm-13.0"/>
+  <project name="K920/android_kernel_lenovo_msm8974" path="kernel/lenovo/msm8974" revision="marshmallow"/>
+  <project name="K920/proprietary_vendor_lenovo" path="vendor/lenovo" revision="marshmallow"/>
+  <project name="K920/android_packages_apps_Snap" path="packages/apps/Snap" revision="cm-13.0"/>
+
+  <!-- Nightly -->
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" revision="cm-13.0" />
+  <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" revision="cm-13.0" />
+  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" revision="cm-13.0" />
+
+  <!-- Repositores to remove -->
+  <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+</manifest>
