@@ -18,10 +18,6 @@
            sync-c="true"
            sync-j="4" />
 
-<!-- BEGIN TWRP -->
-  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.0" groups="pdk-cw-fs"/>
-<!-- END TWRP -->
-
 <!-- BEGIN CYANOGENMOD TO BUILD TWRP ONLY -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
