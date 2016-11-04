@@ -5,7 +5,7 @@
 
   <!-- Custom -->
   <project name="K920/android_device_lenovo_kingdom_row" path="device/lenovo/kingdom_row" remote="github" revision="staging/cm-14.0"/>
-  <project name="K920/android_kernel_lenovo_msm8974" path="kernel/lenovo/msm8974" remote="github" revision="staging/cm-14.0"/>
+  <project name="K920/android_kernel_lenovo_msm8974-legacy" path="kernel/lenovo/msm8974" remote="github" revision="staging/cm-14.0"/>
   <project name="K920/proprietary_vendor_lenovo" path="vendor/lenovo" remote="github" revision="staging/cm-14.0"/>
 
   <!-- Repositores to remove -->
