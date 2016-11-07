@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Repositories to replace -->
+  <remove-project name="CyanogenMod/android_packages_apps_Snap" />
+
+  <!-- Upstream -->
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1"/>
+
+  <!-- Custom -->
+  <project name="K920/android_device_lenovo_kingdom_row" path="device/lenovo/kingdom_row" remote="github" revision="cm-14.1"/>
+  <project name="K920/android_kernel_lenovo_msm8974" path="kernel/lenovo/msm8974" remote="github" revision="cm-14.1"/>
+  <project name="K920/proprietary_vendor_lenovo" path="vendor/lenovo" remote="github" revision="cm-14.1"/>
+  <project name="K920/android_packages_apps_Snap" path="packages/apps/Snap" revision="cm-14.1"/>
+
+  <!-- Repositores to remove -->
+  <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
+
+  <!-- Darwin -->
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/ninja/darwin-x86" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+
+  <!-- Linux -->
+  <!--
+  <remove-project name="platform/prebuilts/clang/linux-x86/host/3.6" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <remove-project name="CyanogenMod/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gdb/linux-x86" />
+  <remove-project name="platform/prebuilts/go/linux-x86" />
+  <remove-project name="platform/prebuilts/ninja/linux-x86" />
+  <remove-project name="platform/prebuilts/python/linux-x86/2.7.5" />
+  -->
+
+  <!-- Other platforms -->
+  <remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
+  <remove-project name="CyanogenMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <remove-project name="CyanogenMod/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" />
+</manifest>
