@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- MultiROM -->
+  <project name="Tasssadar/multirom_adbd" path="system/extras/multirom/adbd" revision="master" />
+  <project name="Tasssadar/libbootimg" path="system/extras/libbootimg" revision="master" />
+
+  <!-- Upstream -->
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" revision="cm-14.1" /> <!-- cm-14.1 -->
+  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" revision="cm-13.0" groups="pdk-cw-fs" />
+
+  <!-- Custom -->
+  <project name="K920/android_device_lenovo_kingdom_row" path="device/lenovo/kingdom_row" revision="multirom" />
+  <project name="K920/android_kernel_lenovo_msm8974" path="kernel/lenovo/msm8974" revision="cm-14.1" /> <!-- cm-14.1 -->
+  <project name="K920/android_bootable_recovery-twrp" path="bootable/recovery-twrp" revision="android-6.0-mrom" />
+  <project name="K920/android_system_extras_multirom" path="system/extras/multirom" revision="master" />
+  <project name="K920/android_system_extras_multirom_kexec-tools" path="system/extras/multirom/kexec-tools" revision="master" />
+
+  <!-- Darwin -->
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+
+  <!-- Linux -->
+  <!--
+  <remove-project name="platform/prebuilts/clang/linux-x86/host/3.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+  -->
+
+  <!-- Other platforms -->
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+</manifest>
