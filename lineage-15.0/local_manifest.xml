@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Upstream -->
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.0"/>
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.0"/>
+
+  <!-- Custom -->
+  <project name="K920/android_device_lenovo_kingdom" path="device/lenovo/kingdom" remote="github" revision="lineage-15.0"/>
+  <project name="K920/android_kernel_lenovo_msm8974" path="kernel/lenovo/msm8974" remote="github" revision="lineage-15.0"/>
+  <project name="K920/proprietary_vendor_lenovo" path="vendor/lenovo" remote="github" revision="lineage-15.0"/>
+</manifest>
