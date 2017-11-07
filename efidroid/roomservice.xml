@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="lkl/linux" />
+
+  <project name="K920/efidroid_lkl" path="uefi/lkl" remote="github" />
+  <project name="K920/android_device_lenovo_kingdom" path="device/lenovo/kingdom" remote="github" revision="efidroid" />
+  <project name="efidroid/bootloader_lk" path="bootloader/lk/qcom/LA.BF64" remote="github" revision="qcom/LA.BF64" />
+
+</manifest>
