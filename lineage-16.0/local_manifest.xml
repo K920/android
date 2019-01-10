@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Upstream -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0"/>
+  <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-16.0"/>
+  <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-16.0"/>
+  <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="github" revision="lineage-16.0"/>
+  <project name="LineageOS/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="lineage-16.0"/>
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-16.0"/>
+
+  <!-- Kingdom -->
+  <project name="K920/android_device_lenovo_kingdom" path="device/lenovo/kingdom" remote="github" revision="lineage-16.0"/>
+  <project name="K920/android_kernel_cyanogen_msm8974" path="kernel/cyanogen/msm8974" remote="github" revision="lineage-16.0frantisheq"/>
+  <project name="K920/proprietary_vendor_lenovo" path="vendor/lenovo" remote="github" revision="lineage-16.0"/>
+</manifest>
