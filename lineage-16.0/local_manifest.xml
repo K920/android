@@ -11,4 +11,6 @@
   <project name="K920/android_device_lenovo_kingdom" path="device/lenovo/kingdom" remote="github" revision="lineage-16.0"/>
   <project name="K920/android_kernel_cyanogen_msm8974" path="kernel/cyanogen/msm8974" remote="github" revision="lineage-16.0"/>
   <project name="K920/proprietary_vendor_lenovo" path="vendor/lenovo" remote="github" revision="lineage-16.0"/>
+
+  <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
 </manifest>
